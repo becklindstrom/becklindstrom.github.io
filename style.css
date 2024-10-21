@@ -65,3 +65,13 @@ button {
     border: none;
     cursor: pointer;
 }
+.my-link {
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+}
+
+.my-link:hover {
+    color: darkblue; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
